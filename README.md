@@ -1,12 +1,29 @@
-# Student Exam Score Predictor
+# Student Performance Predictor
 
-A Flask web application that predicts student exam scores based on various factors using machine learning.
+A Flask web application that predicts student exam scores based on various academic and personal factors using machine learning.
 
 ## Features
 
-- Predict exam scores based on student data
-- Web interface for easy input
-- Machine learning model trained on student performance data
+- Predict exam scores based on comprehensive student data
+- User-friendly web interface for input
+- Machine learning model trained on extensive student performance dataset
+- Real-time predictions with detailed results
+
+## Input Features
+
+The model considers the following factors:
+- Age
+- Gender
+- Study Hours per Week
+- Preferred Learning Style
+- Online Courses Completed
+- Participation in Discussions
+- Assignment Completion Rate
+- Attendance Rate
+- Use of Educational Technology
+- Self-Reported Stress Level
+- Time Spent on Social Media
+- Sleep Hours per Night
 
 ## Local Development
 
@@ -28,7 +45,11 @@ A Flask web application that predicts student exam scores based on various facto
 
 ## Technologies Used
 
-- Flask
-- scikit-learn
-- pandas
-- joblib
+- **Flask** - Web framework
+- **scikit-learn** - Machine learning
+- **pandas** - Data manipulation
+- **joblib** - Model serialization
+
+## Model Performance
+
+The linear regression model provides accurate predictions based on historical student performance data.
