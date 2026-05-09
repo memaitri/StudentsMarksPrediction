@@ -38,10 +38,12 @@ The model considers the following factors:
 1. Connect your GitHub repository to Render
 2. Create a new Web Service
 3. Set the following:
-   - **Runtime**: Python 3
+   - **Runtime**: Python 3 (Render will use runtime.txt)
    - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python app.py`
+   - **Start Command**: `gunicorn app:app`
 4. Deploy!
+
+**Note**: The `runtime.txt` file specifies Python 3.11.9 for compatibility.
 
 ## Technologies Used
 
