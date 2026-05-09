@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import joblib
 
 # Load dataset
-df5 = pd.read_csv(r"C:\Users\Priyal\OneDrive\Documents\student_performance_app\student_performance_large_dataset.csv")
+df5 = pd.read_csv("student_performance_large_dataset.csv")
 
 # Select useful features
 x4 = df5[[
